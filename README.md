@@ -3,10 +3,21 @@
 
 this is a project built with next.js, providing a quick and easy setup for developing on the web.
 
-## deployment
+# deployment
 
-### the app is already deployed and ready to use!  
-### [click here to check it out!](https://freehunter.vercel.app)
+## the app is already deployed and ready to use!  
+## [click here to check it out!](https://freehunter.vercel.app)
+
+# NOTICE ( IF YOU'RE RUNNING THROUGH LOCALHOST )
+
+## You'll need environmental variables for this project.
+Here's an example for those:
+
+```
+GEMINI_KEY=YOURGOOGLEDEVELOPERSKEY
+TRS_API_KEY=YOURASSEMBLYAIKEY
+MONGO_URI=YOURMONGODBCLUSTERURI
+```
 
 ## getting started
 
