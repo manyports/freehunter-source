@@ -3,6 +3,18 @@
 
 this is a project built with next.js, providing a quick and easy setup for developing on the web.
 
+# NOTICE
+
+## You'll need environmental variables for this project.
+Here's an example for those:
+
+```
+GEMINI_KEY=YOURGOOGLEDEVELOPERSKEY
+TRS_API_KEY=YOURASSEMBLYAIKEY
+MONGO_URI=YOURMONGODBCLUSTERURI
+```
+
+
 ## deployment
 
 ### the app is already deployed and ready to use!  
