@@ -10,10 +10,7 @@ export async function GET() {
     const db = client.db('test');
 
     const jobs = await db.collection('jobs')
-      .aggregate([
-        { $match: { status: 'active' } },
-        { $sample: { size: 3 } }
-      ])
+      .find({ status: 'active' })
       .toArray();
     const formattedJobs = jobs.map(job => ({
       ...job,
